@@ -1,26 +1,99 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Soular brand colors - deep space theme */
+  --background: #000000;
+  --foreground: #f5f5f7;
+  --accent: #8b5cf6;
+  --accent-light: #a78bfa;
+  --muted: #71717a;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-muted: var(--muted);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
+
+/* Galaxy star background */
+.galaxy-bg {
+  position: fixed;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.stars-layer {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(1px 1px at 20px 30px, white, transparent),
+    radial-gradient(1px 1px at 40px 70px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(1px 1px at 50px 160px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 90px 40px, white, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 160px 120px, white, transparent),
+    radial-gradient(1px 1px at 200px 50px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 220px 140px, white, transparent),
+    radial-gradient(1px 1px at 260px 90px, rgba(255,255,255,0.8), transparent),
+    radial-gradient(2px 2px at 300px 170px, white, transparent);
+  background-size: 320px 200px;
+  background-repeat: repeat;
+  animation: twinkle 8s ease-in-out infinite;
+}
+
+.stars-layer-2 {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(1px 1px at 70px 20px, rgba(255,255,255,0.6), transparent),
+    radial-gradient(1px 1px at 110px 100px, white, transparent),
+    radial-gradient(1px 1px at 180px 60px, rgba(255,255,255,0.7), transparent),
+    radial-gradient(2px 2px at 240px 130px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 280px 30px, white, transparent);
+  background-size: 300px 180px;
+  background-repeat: repeat;
+  animation: twinkle 6s ease-in-out infinite 2s;
+}
+
+.stars-layer-3 {
+  position: absolute;
+  inset: 0;
+  background-image: 
+    radial-gradient(1px 1px at 30px 80px, rgba(255,255,255,0.4), transparent),
+    radial-gradient(1px 1px at 150px 40px, rgba(255,255,255,0.5), transparent),
+    radial-gradient(1px 1px at 250px 110px, rgba(255,255,255,0.3), transparent);
+  background-size: 280px 160px;
+  background-repeat: repeat;
+  animation: twinkle 10s ease-in-out infinite 4s;
+}
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; }
+  50% { opacity: 1; }
+}
+
+/* CTA glow pulse */
+.cta-glow {
+  animation: glow-pulse 4s ease-in-out infinite;
+}
+
+@keyframes glow-pulse {
+  0%, 100% { 
+    filter: drop-shadow(0 0 0px rgba(139, 92, 246, 0));
+  }
+  50% { 
+    filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.6));
+  }
 }
