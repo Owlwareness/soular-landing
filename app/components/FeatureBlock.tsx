@@ -13,9 +13,9 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
   
   return (
     <section className="py-16 px-6 md:py-24">
-      <div className={`mx-auto max-w-5xl flex flex-col gap-8 md:flex-row md:items-center md:gap-12 ${isRight ? 'md:flex-row-reverse' : ''}`}>
-        {/* Mockup */}
-        <div className="flex-1">
+      <div className={`mx-auto max-w-6xl flex flex-col gap-8 md:flex-row md:items-center md:gap-16 ${isRight ? 'md:flex-row-reverse' : ''}`}>
+        {/* Mockup - takes 60% on desktop */}
+        <div className="md:w-3/5">
           <IPhoneMockup>
             {media.type === 'video' ? (
               <video
@@ -24,7 +24,7 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
                 muted
                 loop
                 playsInline
-                className="h-full w-full object-cover"
+                className="h-full w-full"
                 aria-label={media.alt}
               >
                 <track kind="descriptions" label={media.alt} />
@@ -33,14 +33,14 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
               <img
                 src={media.src}
                 alt={media.alt}
-                className="h-full w-full object-cover"
+                className="h-full w-full"
               />
             )}
           </IPhoneMockup>
         </div>
         
-        {/* Content */}
-        <div className="flex-1 text-center md:text-left">
+        {/* Content - takes 40% on desktop */}
+        <div className="md:w-2/5 text-center md:text-left">
           <h2 className="text-2xl font-semibold text-foreground md:text-3xl">
             {title}
           </h2>
