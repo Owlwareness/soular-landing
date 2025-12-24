@@ -12,10 +12,10 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
   const isRight = alignment === 'right';
   
   return (
-    <section className="py-16 px-6 md:py-24">
-      <div className={`mx-auto max-w-6xl flex flex-col gap-8 md:flex-row md:items-center md:gap-16 ${isRight ? 'md:flex-row-reverse' : ''}`}>
-        {/* Mockup - takes 60% on desktop */}
-        <div className="md:w-3/5">
+    <section className="py-12 md:py-24">
+      <div className={`mx-auto max-w-6xl flex flex-col gap-6 md:flex-row md:items-center md:gap-16 md:px-6 ${isRight ? 'md:flex-row-reverse' : ''}`}>
+        {/* Mockup - full width on mobile, 60% on desktop */}
+        <div className="w-full md:w-3/5">
           <IPhoneMockup>
             {media.type === 'video' ? (
               <video
@@ -40,7 +40,7 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
         </div>
         
         {/* Content - takes 40% on desktop */}
-        <div className="md:w-2/5 text-center md:text-left">
+        <div className="px-6 md:px-0 md:w-2/5 text-center md:text-left">
           <h2 className="text-2xl font-semibold text-foreground md:text-3xl">
             {title}
           </h2>
