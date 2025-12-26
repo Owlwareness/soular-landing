@@ -29,7 +29,7 @@ export default function Home() {
         ))}
 
         {/* Final CTA - above footer */}
-        <section className="py-16 px-6 text-center">
+        <section className="py-10 md:py-16 px-4 text-center">
           <div className="cta-glow inline-block">
             <AppStoreBadge url={hero.appStoreUrl} />
           </div>
