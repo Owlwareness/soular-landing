@@ -15,7 +15,7 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
     <section className="py-4 md:py-16">
       <div className={`flex flex-col gap-3 md:flex-row md:items-center md:gap-12 md:max-w-7xl md:mx-auto md:px-8 ${isRight ? 'md:flex-row-reverse' : ''}`}>
         {/* Mockup - scale up and crop the black padding */}
-        <div className="w-full md:w-3/5 overflow-hidden">
+        <div className="w-full md:w-3/5 overflow-hidden py-16 md:py-0">
           <div className="scale-[1.8] md:scale-[1.25] origin-center">
             {media.type === 'video' ? (
               <video
