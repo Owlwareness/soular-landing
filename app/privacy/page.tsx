@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <h1 className="text-3xl font-bold">Privacy Policy</h1>
           <p className="mt-2 text-muted">
             <strong>CAIVE LLC</strong> · <strong>Soular Love</strong><br />
-            Effective Date: December 26, 2024
+            Effective Date: December 26, 2025
           </p>
 
           <hr className="my-8 border-zinc-800" />
@@ -320,7 +320,7 @@ export default function PrivacyPolicy() {
           <hr className="my-8 border-zinc-800" />
 
           <p className="mt-8 text-sm text-muted italic">
-            Last updated: December 26, 2024
+            Last updated: December 26, 2025
           </p>
         </article>
       </div>

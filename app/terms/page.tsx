@@ -17,7 +17,7 @@ export default function TermsOfService() {
           <h1 className="text-3xl font-bold">Terms of Service</h1>
           <p className="mt-2 text-muted">
             <strong>CAIVE LLC</strong> · <strong>Soular Love</strong><br />
-            Effective Date: December 26, 2024
+            Effective Date: December 26, 2025
           </p>
 
           <hr className="my-8 border-zinc-800" />
@@ -284,18 +284,21 @@ export default function TermsOfService() {
               TO THE MAXIMUM EXTENT PERMITTED BY LAW:
             </p>
             <p className="mt-4 text-muted leading-relaxed">
-              CAIVE LLC and its officers, employees, and affiliates will not be liable for:
+              CAIVE LLC and its officers, employees, and affiliates shall not be liable for any damages whatsoever, including but not limited to:
             </p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Indirect, incidental, special, consequential, or punitive damages</li>
-              <li>Loss of profits, data, or goodwill</li>
-              <li>Any damages exceeding the amount you paid us in the past 12 months (or $100 if you haven&apos;t paid anything)</li>
+              <li>Direct, indirect, incidental, special, consequential, or punitive damages</li>
+              <li>Loss of profits, data, goodwill, or other intangible losses</li>
+              <li>Damages resulting from your use or inability to use the service</li>
+              <li>Damages resulting from any content or conduct of other users</li>
+              <li>Damages resulting from unauthorized access to your account or data</li>
+              <li>Any other damages arising from your use of Soular</li>
             </ul>
             <p className="mt-4 text-muted leading-relaxed">
-              This applies regardless of the theory of liability (contract, tort, or otherwise).
+              This limitation applies regardless of the theory of liability (contract, tort, strict liability, or otherwise), even if we have been advised of the possibility of such damages.
             </p>
             <p className="mt-4 text-muted leading-relaxed">
-              <strong>Some jurisdictions don&apos;t allow these limitations, so they may not apply to you.</strong>
+              <strong>You use Soular entirely at your own risk.</strong> Some jurisdictions don&apos;t allow the exclusion of certain warranties or limitation of liability, so some of the above may not apply to you. In such cases, our liability will be limited to the fullest extent permitted by applicable law.
             </p>
           </section>
 
@@ -380,7 +383,7 @@ export default function TermsOfService() {
           <hr className="my-8 border-zinc-800" />
 
           <p className="mt-8 text-sm text-muted italic">
-            Last updated: December 26, 2024
+            Last updated: December 26, 2025
           </p>
         </article>
       </div>
