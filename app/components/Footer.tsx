@@ -23,7 +23,7 @@ export function Footer({
             Privacy Policy
           </Link>
 
-          <p className="text-sm text-muted text-center">{tagline}</p>
+          <p className="text-sm text-muted text-center whitespace-pre-line">{tagline}</p>
 
           <Link
             href={termsOfServiceUrl}

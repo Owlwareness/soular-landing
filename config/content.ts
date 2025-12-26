@@ -41,7 +41,7 @@ export const landingContent = {
     termsOfServiceUrl: "/terms"
   },
   footer: {
-    tagline: "Built with love by a human, powered by AI"
+    tagline: "Built with love,\npowered by AI"
   }
 } as const;
 

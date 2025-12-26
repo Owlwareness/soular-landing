@@ -14,8 +14,8 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
   return (
     <section className="py-12 md:py-24">
       <div className={`mx-auto max-w-6xl flex flex-col gap-6 md:flex-row md:items-center md:gap-16 md:px-6 ${isRight ? 'md:flex-row-reverse' : ''}`}>
-        {/* Mockup - full width on mobile, 60% on desktop */}
-        <div className="w-full md:w-3/5">
+        {/* Mockup - full screen width on mobile, 60% on desktop */}
+        <div className="w-screen -mx-[50vw] left-1/2 relative md:w-3/5 md:mx-0 md:left-0">
           <IPhoneMockup>
             {media.type === 'video' ? (
               <video
