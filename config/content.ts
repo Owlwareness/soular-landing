@@ -1,7 +1,7 @@
 export const landingContent = {
   hero: {
     headline: "Dating for people who hate dating apps",
-    tagline: "No faces. Real depth. Real connection.",
+    tagline: "Real depth. Real connection.",
     appStoreUrl: process.env.NEXT_PUBLIC_APP_STORE_URL || "https://apps.apple.com/app/soular/id000000000"
   },
   features: [

@@ -12,31 +12,29 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
   const isRight = alignment === 'right';
   
   return (
-    <section className="py-12 md:py-24">
-      <div className={`mx-auto max-w-6xl flex flex-col gap-6 md:flex-row md:items-center md:gap-16 md:px-6 ${isRight ? 'md:flex-row-reverse' : ''}`}>
-        {/* Mockup - full screen width on mobile, 60% on desktop */}
-        <div className="w-screen -mx-[50vw] left-1/2 relative md:w-3/5 md:mx-0 md:left-0">
-          <IPhoneMockup>
-            {media.type === 'video' ? (
-              <video
-                src={media.src}
-                autoPlay
-                muted
-                loop
-                playsInline
-                className="h-full w-full"
-                aria-label={media.alt}
-              >
-                <track kind="descriptions" label={media.alt} />
-              </video>
-            ) : (
-              <img
-                src={media.src}
-                alt={media.alt}
-                className="h-full w-full"
-              />
-            )}
-          </IPhoneMockup>
+    <section className="py-12 md:py-24 overflow-visible">
+      <div className={`flex flex-col gap-6 md:flex-row md:items-center md:gap-16 md:max-w-6xl md:mx-auto md:px-6 ${isRight ? 'md:flex-row-reverse' : ''}`}>
+        {/* Mockup - 100vw on mobile, 60% on desktop */}
+        <div className="w-full md:w-3/5">
+          {media.type === 'video' ? (
+            <video
+              src={media.src}
+              autoPlay
+              muted
+              loop
+              playsInline
+              className="w-full h-auto"
+              aria-label={media.alt}
+            >
+              <track kind="descriptions" label={media.alt} />
+            </video>
+          ) : (
+            <img
+              src={media.src}
+              alt={media.alt}
+              className="w-full h-auto"
+            />
+          )}
         </div>
         
         {/* Content - takes 40% on desktop */}
