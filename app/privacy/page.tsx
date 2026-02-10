@@ -16,8 +16,8 @@ export default function PrivacyPolicy() {
         <article className="mt-8 text-foreground">
           <h1 className="text-3xl font-bold">Privacy Policy</h1>
           <p className="mt-2 text-muted">
-            <strong>CAIVE LLC</strong> · <strong>Soular Love</strong><br />
-            Effective Date: December 26, 2025
+            <strong>CAIVE LLC</strong> · <strong>Soular</strong><br />
+            Effective Date: February 10, 2025
           </p>
 
           <hr className="my-8 border-zinc-800" />
@@ -25,7 +25,7 @@ export default function PrivacyPolicy() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">The Short Version</h2>
             <p className="mt-4 text-muted leading-relaxed">
-              We built Soular Love to help people connect authentically. Your data exists to make that happen - not to sell, not to advertise, not to exploit. We use AI to understand the depth of your conversations and create beautiful visualizations of your connections. That&apos;s it.
+              We built Soular to help people connect authentically. Your data exists to make that happen - not to sell, not to advertise, not to exploit. We use AI to understand the depth of your conversations and create beautiful 3D visualizations of your connections. That&apos;s it.
             </p>
             <p className="mt-4 text-muted leading-relaxed">
               When you delete your account, everything goes with it. Immediately. No 90-day holds, no archives, no &quot;we might keep some stuff.&quot; Gone.
@@ -37,7 +37,7 @@ export default function PrivacyPolicy() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">1. Who We Are</h2>
             <p className="mt-4 text-muted leading-relaxed">
-              Soular Love is operated by CAIVE LLC. When we say &quot;we,&quot; &quot;us,&quot; or &quot;our,&quot; we mean CAIVE LLC. When we say &quot;you&quot; or &quot;your,&quot; we mean you, the person using Soular Love.
+              Soular is operated by CAIVE LLC. When we say &quot;we,&quot; &quot;us,&quot; or &quot;our,&quot; we mean CAIVE LLC. When we say &quot;you&quot; or &quot;your,&quot; we mean you, the person using Soular.
             </p>
             <p className="mt-4 text-muted leading-relaxed">
               <strong>Contact:</strong>{' '}
@@ -57,7 +57,7 @@ export default function PrivacyPolicy() {
             <p className="mt-4 text-muted"><strong>Account Information</strong></p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
               <li>Email address (for login and account recovery)</li>
-              <li>Display name (shown to your matches)</li>
+              <li>Display name (shown to your connections)</li>
               <li>Password (encrypted, we never see the plain text)</li>
               <li>Birthdate (to verify you&apos;re 18+)</li>
             </ul>
@@ -69,7 +69,7 @@ export default function PrivacyPolicy() {
 
             <p className="mt-4 text-muted"><strong>Content You Create</strong></p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Messages you send to matches</li>
+              <li>Messages you send to connections</li>
               <li>Responses to Star Forge prompts (personal reflections)</li>
             </ul>
 
@@ -79,12 +79,12 @@ export default function PrivacyPolicy() {
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
               <li>AI-analyzed themes from your conversations</li>
               <li>Star visualizations representing connection depth</li>
-              <li>Relationship maps between you and your matches</li>
+              <li>Relationship maps between you and your connections</li>
             </ul>
 
             <p className="mt-4 text-muted"><strong>Connection Records</strong></p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Who you&apos;ve matched with</li>
+              <li>Who you&apos;ve connected with</li>
               <li>When face reveal was unlocked</li>
               <li>Block and report history</li>
             </ul>
@@ -99,7 +99,7 @@ export default function PrivacyPolicy() {
 
             <p className="mt-4 text-muted"><strong>Usage Information</strong></p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Timestamps (when you last matched, messaged, etc.)</li>
+              <li>Timestamps (when you last connected, messaged, etc.)</li>
               <li>App interaction data necessary for functionality</li>
             </ul>
           </section>
@@ -110,9 +110,9 @@ export default function PrivacyPolicy() {
             <h2 className="text-xl font-semibold">3. How We Use Your Information</h2>
             <p className="mt-4 text-muted leading-relaxed">We use your information to:</p>
             <ol className="mt-2 text-muted list-decimal list-inside space-y-1">
-              <li><strong>Provide the Service</strong> - Match you with others, enable messaging, display constellations</li>
+              <li><strong>Provide the Service</strong> - Connect you with others, enable messaging, display constellations</li>
               <li><strong>AI Analysis</strong> - Analyze conversation depth and extract meaningful themes to create your constellation visualizations</li>
-              <li><strong>Send Notifications</strong> - Alert you to new matches, messages, and connection milestones</li>
+              <li><strong>Send Notifications</strong> - Alert you to new connections, messages, and connection milestones</li>
               <li><strong>Ensure Safety</strong> - Review reports, enforce community guidelines, prevent abuse</li>
               <li><strong>Verify Age</strong> - Confirm all users are 18 or older</li>
               <li><strong>Improve Soular</strong> - Understand how the app is used to make it better</li>
@@ -141,7 +141,7 @@ export default function PrivacyPolicy() {
             </ul>
 
             <p className="mt-4 text-muted leading-relaxed">
-              <strong>How it works:</strong> When you chat with a match, our AI reads the conversation to understand if both people are sharing authentically. If so, it creates &quot;stars&quot; representing the themes you&apos;ve explored together. This is core to how Soular works.
+              <strong>How it works:</strong> When you chat with a connection, our AI reads the conversation to understand if both people are sharing authentically. If so, it creates &quot;stars&quot; representing the themes you&apos;ve explored together. This is core to how Soular works.
             </p>
 
             <p className="mt-4 text-muted leading-relaxed">
@@ -154,7 +154,7 @@ export default function PrivacyPolicy() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">5. How We Share Your Information</h2>
             
-            <h3 className="mt-6 text-lg font-medium">With Your Matches</h3>
+            <h3 className="mt-6 text-lg font-medium">With Your Connections</h3>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
               <li>Your display name</li>
               <li>Your profile photo (only after face reveal is unlocked)</li>
@@ -236,7 +236,7 @@ export default function PrivacyPolicy() {
             </p>
 
             <p className="mt-4 text-muted leading-relaxed">
-              <strong>Expired Connections:</strong> Match data expires after 24 hours if no meaningful conversation occurs.
+              <strong>Expired Connections:</strong> Connection data expires after 24 hours if no meaningful conversation occurs.
             </p>
 
             <p className="mt-4 text-muted leading-relaxed">
@@ -320,7 +320,7 @@ export default function PrivacyPolicy() {
           <hr className="my-8 border-zinc-800" />
 
           <p className="mt-8 text-sm text-muted italic">
-            Last updated: December 26, 2025
+            Last updated: February 10, 2026
           </p>
         </article>
       </div>

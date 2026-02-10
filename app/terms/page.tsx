@@ -16,8 +16,8 @@ export default function TermsOfService() {
         <article className="mt-8 text-foreground">
           <h1 className="text-3xl font-bold">Terms of Service</h1>
           <p className="mt-2 text-muted">
-            <strong>CAIVE LLC</strong> · <strong>Soular Love</strong><br />
-            Effective Date: December 26, 2025
+            <strong>CAIVE LLC</strong> · <strong>Soular</strong><br />
+            Effective Date: February 10, 2025
           </p>
 
           <hr className="my-8 border-zinc-800" />
@@ -25,7 +25,7 @@ export default function TermsOfService() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">Agreement to Terms</h2>
             <p className="mt-4 text-muted leading-relaxed">
-              By downloading, accessing, or using Soular Love, you agree to these Terms of Service. If you don&apos;t agree, don&apos;t use the app. Simple as that.
+              By downloading, accessing, or using Soular, you agree to these Terms of Service. If you don&apos;t agree, don&apos;t use the app.
             </p>
             <p className="mt-4 text-muted leading-relaxed">
               These terms are a legal agreement between you and CAIVE LLC (&quot;we,&quot; &quot;us,&quot; &quot;our&quot;). Please read them.
@@ -37,22 +37,22 @@ export default function TermsOfService() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">1. What Soular Is</h2>
             <p className="mt-4 text-muted leading-relaxed">
-              Soular Love is a connection app where meaningful conversations create visual star constellations. We use AI to analyze the depth of your exchanges and build beautiful maps of your connections.
+              Soular is a social platform where meaningful conversations create visual star constellations. We use AI to analyze the depth of your exchanges and build beautiful 3D maps of your connections.
             </p>
             
             <p className="mt-4 text-muted"><strong>What we provide:</strong></p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Daily matching with other users</li>
+              <li>Daily discovery of new people to connect with</li>
               <li>Real-time messaging</li>
               <li>AI-powered conversation analysis</li>
-              <li>Constellation visualizations of connection depth</li>
+              <li>3D constellation visualizations of connection depth</li>
               <li>Face reveal after demonstrating authentic connection</li>
             </ul>
 
             <p className="mt-4 text-muted"><strong>What we don&apos;t guarantee:</strong></p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
               <li>That you&apos;ll find a connection</li>
-              <li>That matches will respond</li>
+              <li>That other users will respond</li>
               <li>That the AI analysis will be perfect</li>
               <li>Anything beyond the service as described</li>
             </ul>
@@ -96,11 +96,11 @@ export default function TermsOfService() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">4. How Soular Works</h2>
             
-            <h3 className="mt-6 text-lg font-medium">Matching</h3>
+            <h3 className="mt-6 text-lg font-medium">Connections</h3>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>You receive one new match per day</li>
-              <li>Matches expire after 24 hours if no meaningful conversation occurs</li>
-              <li>You can only be matched with users you haven&apos;t blocked (and who haven&apos;t blocked you)</li>
+              <li>You discover one new person to connect with per day</li>
+              <li>Connections expire after 24 hours if no meaningful conversation occurs</li>
+              <li>You can only be connected with users you haven&apos;t blocked (and who haven&apos;t blocked you)</li>
             </ul>
 
             <h3 className="mt-6 text-lg font-medium">Conversations</h3>
@@ -170,10 +170,10 @@ export default function TermsOfService() {
               By using Soular, you grant us a non-exclusive, worldwide, royalty-free license to use, store, display, and process your content as necessary to provide the service. This includes:
             </p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Storing and displaying your messages to your matches</li>
+              <li>Storing and displaying your messages to your connections</li>
               <li>Processing your conversations through AI analysis</li>
               <li>Creating constellation visualizations from your content</li>
-              <li>Displaying your profile to potential and current matches</li>
+              <li>Displaying your profile to current connections</li>
             </ul>
             <p className="mt-4 text-muted leading-relaxed">
               This license ends when you delete your content or account.
@@ -194,7 +194,7 @@ export default function TermsOfService() {
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
               <li>You can block any user at any time</li>
               <li>Blocking immediately ends the connection and deletes all shared data</li>
-              <li>Blocked users cannot match with you again (ever)</li>
+              <li>Blocked users cannot connect with you again (ever)</li>
               <li>Blocking is invisible to the blocked user</li>
             </ul>
 
@@ -246,7 +246,7 @@ export default function TermsOfService() {
             
             <h3 className="mt-6 text-lg font-medium">Our Property</h3>
             <p className="mt-2 text-muted leading-relaxed">
-              Soular Love, including its design, features, code, and branding, is owned by CAIVE LLC. You may not copy, modify, distribute, or create derivative works without our permission.
+              Soular, including its design, features, code, and branding, is owned by CAIVE LLC. You may not copy, modify, distribute, or create derivative works without our permission.
             </p>
 
             <h3 className="mt-6 text-lg font-medium">Feedback</h3>
@@ -284,21 +284,18 @@ export default function TermsOfService() {
               TO THE MAXIMUM EXTENT PERMITTED BY LAW:
             </p>
             <p className="mt-4 text-muted leading-relaxed">
-              CAIVE LLC and its officers, employees, and affiliates shall not be liable for any damages whatsoever, including but not limited to:
+              CAIVE LLC and its officers, employees, and affiliates will not be liable for:
             </p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
-              <li>Direct, indirect, incidental, special, consequential, or punitive damages</li>
-              <li>Loss of profits, data, goodwill, or other intangible losses</li>
-              <li>Damages resulting from your use or inability to use the service</li>
-              <li>Damages resulting from any content or conduct of other users</li>
-              <li>Damages resulting from unauthorized access to your account or data</li>
-              <li>Any other damages arising from your use of Soular</li>
+              <li>Indirect, incidental, special, consequential, or punitive damages</li>
+              <li>Loss of profits, data, or goodwill</li>
+              <li>Any damages exceeding the amount you paid us in the past 12 months (or $100 if you haven&apos;t paid anything)</li>
             </ul>
             <p className="mt-4 text-muted leading-relaxed">
-              This limitation applies regardless of the theory of liability (contract, tort, strict liability, or otherwise), even if we have been advised of the possibility of such damages.
+              This applies regardless of the theory of liability (contract, tort, or otherwise).
             </p>
             <p className="mt-4 text-muted leading-relaxed">
-              <strong>You use Soular entirely at your own risk.</strong> Some jurisdictions don&apos;t allow the exclusion of certain warranties or limitation of liability, so some of the above may not apply to you. In such cases, our liability will be limited to the fullest extent permitted by applicable law.
+              <strong>Some jurisdictions don&apos;t allow these limitations, so they may not apply to you.</strong>
             </p>
           </section>
 
@@ -349,7 +346,7 @@ export default function TermsOfService() {
             <h2 className="text-xl font-semibold">14. General Terms</h2>
             
             <p className="mt-4 text-muted leading-relaxed">
-              <strong>Entire Agreement:</strong> These terms, along with our Privacy Policy, constitute the entire agreement between you and CAIVE LLC regarding Soular Love.
+              <strong>Entire Agreement:</strong> These terms, along with our Privacy Policy, constitute the entire agreement between you and CAIVE LLC regarding Soular.
             </p>
             <p className="mt-4 text-muted leading-relaxed">
               <strong>Severability:</strong> If any provision is found unenforceable, the rest remains in effect.
@@ -383,7 +380,7 @@ export default function TermsOfService() {
           <hr className="my-8 border-zinc-800" />
 
           <p className="mt-8 text-sm text-muted italic">
-            Last updated: December 26, 2025
+            Last updated: February 10, 2026
           </p>
         </article>
       </div>

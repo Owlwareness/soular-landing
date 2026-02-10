@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Soular - Dating for people who hate dating apps",
-  description: "No faces. Real depth. Real connection. Build meaningful connections through conversation, not swipes.",
+  title: "SoularVerse - Your conversations, mapped in 3D",
+  description: "Real depth. Real connection. Build meaningful connections through conversation, not swipes. Watch your relationships come alive as 3D constellations.",
 };
 
 export const viewport: Viewport = {

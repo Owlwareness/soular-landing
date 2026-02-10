@@ -36,9 +36,9 @@ export default function Home() {
         </section>
 
         <Footer
-          tagline={footer.tagline}
           privacyPolicyUrl={trust.privacyPolicyUrl}
           termsOfServiceUrl={trust.termsOfServiceUrl}
+          supportUrl={trust.supportUrl}
         />
       </main>
     </>

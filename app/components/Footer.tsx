@@ -1,33 +1,37 @@
 import Link from "next/link";
 
 interface FooterProps {
-  tagline: string;
   privacyPolicyUrl: string;
   termsOfServiceUrl: string;
+  supportUrl: string;
 }
 
 export function Footer({
-  tagline,
   privacyPolicyUrl,
   termsOfServiceUrl,
+  supportUrl,
 }: FooterProps) {
   return (
     <footer className="py-8 px-6 border-t border-zinc-800">
       <div className="mx-auto max-w-5xl">
-        {/* Single row: Privacy | Tagline | Terms */}
-        <div className="flex justify-between items-center">
+        <div className="flex justify-center items-center gap-8">
           <Link
             href={privacyPolicyUrl}
-            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4 min-h-[44px] min-w-[44px] flex items-center"
+            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4 min-h-[44px] flex items-center"
           >
             Privacy Policy
           </Link>
 
-          <p className="text-sm text-muted text-center whitespace-pre-line">{tagline}</p>
+          <Link
+            href={supportUrl}
+            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4 min-h-[44px] flex items-center"
+          >
+            Support
+          </Link>
 
           <Link
             href={termsOfServiceUrl}
-            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4 min-h-[44px] min-w-[44px] flex items-center"
+            className="text-sm text-muted hover:text-foreground transition-colors underline underline-offset-4 min-h-[44px] flex items-center"
           >
             Terms of Service
           </Link>

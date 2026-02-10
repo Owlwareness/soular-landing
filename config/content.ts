@@ -1,14 +1,14 @@
 export const landingContent = {
   hero: {
-    headline: "Dating for people who hate dating apps",
-    tagline: "Real depth. Real connection.",
+    headline: "SoularVerse",
+    tagline: "Your conversations, mapped in 3D",
     appStoreUrl: process.env.NEXT_PUBLIC_APP_STORE_URL || "https://apps.apple.com/app/soular/id000000000"
   },
   features: [
     {
       id: 'relationship-mapping',
       title: "Go deep, unlock stars",
-      description: "Your conversations build a constellation unique to your connection. Every meaningful exchange adds a new star to your shared map.",
+      description: "Your conversations build a constellation unique to your connection. Every meaningful exchange adds a new star to your shared 3D map.",
       media: {
         type: 'video' as const,
         src: '/videos/relationship-mapping.mp4',
@@ -28,7 +28,7 @@ export const landingContent = {
     {
       id: 'face-reveal',
       title: "See who you've connected with",
-      description: "Not who you're swiping on. Faces unlock after real depth. Four stars of genuine connection reveals the person behind the conversation.",
+      description: "Faces unlock after real depth. Four stars of genuine connection reveals the person behind the conversation.",
       media: {
         type: 'video' as const,
         src: '/videos/face-reveal.mp4',
@@ -38,10 +38,11 @@ export const landingContent = {
   ],
   trust: {
     privacyPolicyUrl: "/privacy",
-    termsOfServiceUrl: "/terms"
+    termsOfServiceUrl: "/terms",
+    supportUrl: "/support"
   },
   footer: {
-    tagline: "Built with love,\npowered by AI"
+    tagline: ""
   }
 } as const;
 
