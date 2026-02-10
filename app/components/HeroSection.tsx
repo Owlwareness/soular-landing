@@ -14,9 +14,9 @@ export function HeroSection({ headline, tagline, appStoreUrl }: HeroSectionProps
         <Image
           src="/images/logo.png"
           alt="SoularVerse logo"
-          width={80}
-          height={80}
-          className="mx-auto mb-6 rounded-2xl md:w-24 md:h-24"
+          width={100}
+          height={100}
+          className="mx-auto mb-10 rounded-2xl md:w-32 md:h-32"
           priority
         />
         <h1 className="text-3xl font-bold text-foreground leading-tight md:text-6xl tracking-tight">
@@ -24,10 +24,10 @@ export function HeroSection({ headline, tagline, appStoreUrl }: HeroSectionProps
             {headline}
           </span>
         </h1>
-        <p className="mt-4 text-base text-muted md:text-xl">
+        <p className="mt-6 text-base text-muted md:text-xl">
           {tagline}
         </p>
-        <div className="mt-8 cta-glow inline-block">
+        <div className="mt-12 cta-glow inline-block">
           <AppStoreBadge url={appStoreUrl} />
         </div>
       </div>
