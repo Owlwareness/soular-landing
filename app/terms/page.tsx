@@ -17,7 +17,7 @@ export default function TermsOfService() {
           <h1 className="text-3xl font-bold">Terms of Service</h1>
           <p className="mt-2 text-muted">
             <strong>CAIVE LLC</strong> · <strong>Soular</strong><br />
-            Effective Date: February 10, 2025
+            Effective Date: February 24, 2026
           </p>
 
           <hr className="my-8 border-zinc-800" />
@@ -380,7 +380,7 @@ export default function TermsOfService() {
           <hr className="my-8 border-zinc-800" />
 
           <p className="mt-8 text-sm text-muted italic">
-            Last updated: February 10, 2026
+            Last updated: February 24, 2026
           </p>
         </article>
       </div>

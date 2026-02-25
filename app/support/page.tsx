@@ -2,8 +2,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 export const metadata = {
-  title: 'Support - SoularVerse',
-  description: 'SoularVerse Support - CAIVE LLC',
+  title: 'Support - SoularLove',
+  description: 'SoularLove Support - CAIVE LLC',
 };
 
 export default function Support() {
@@ -13,7 +13,7 @@ export default function Support() {
         <Link href="/" className="inline-block mb-12">
           <Image
             src="/images/logo.png"
-            alt="SoularVerse logo"
+            alt="SoularLove logo"
             width={56}
             height={56}
             className="mx-auto rounded-xl"

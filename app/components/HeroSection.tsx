@@ -13,7 +13,7 @@ export function HeroSection({ headline, tagline, appStoreUrl }: HeroSectionProps
       <div className="relative z-10 text-center max-w-2xl mx-auto">
         <Image
           src="/images/logo.png"
-          alt="SoularVerse logo"
+          alt="SoularLove logo"
           width={100}
           height={100}
           className="mx-auto mb-10 rounded-2xl md:w-32 md:h-32"

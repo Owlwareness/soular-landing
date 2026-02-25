@@ -1,14 +1,14 @@
 # Privacy Policy
 
 **CAIVE LLC**  
-**Soular Love**  
-**Effective Date: December 26, 2024**
+**Soular**  
+**Effective Date: February 24, 2026**
 
 ---
 
 ## The Short Version
 
-We built Soular Love to help people connect authentically. Your data exists to make that happen - not to sell, not to advertise, not to exploit. We use AI to understand the depth of your conversations and create beautiful visualizations of your connections. That's it.
+We built Soular to help people connect authentically. Your data exists to make that happen - not to sell, not to advertise, not to exploit. We use AI to understand the depth of your conversations and create beautiful 3D visualizations of your connections. That's it.
 
 When you delete your account, everything goes with it. Immediately. No 90-day holds, no archives, no "we might keep some stuff." Gone.
 
@@ -16,7 +16,7 @@ When you delete your account, everything goes with it. Immediately. No 90-day ho
 
 ## 1. Who We Are
 
-Soular Love is operated by CAIVE LLC. When we say "we," "us," or "our," we mean CAIVE LLC. When we say "you" or "your," we mean you, the person using Soular Love.
+Soular is operated by CAIVE LLC. When we say "we," "us," or "our," we mean CAIVE LLC. When we say "you" or "your," we mean you, the person using Soular.
 
 **Contact:** caive.social@gmail.com
 
@@ -28,7 +28,7 @@ Soular Love is operated by CAIVE LLC. When we say "we," "us," or "our," we mean 
 
 **Account Information**
 - Email address (for login and account recovery)
-- Display name (shown to your matches)
+- Display name (shown to your connections)
 - Password (encrypted, we never see the plain text)
 - Birthdate (to verify you're 18+)
 
@@ -36,7 +36,7 @@ Soular Love is operated by CAIVE LLC. When we say "we," "us," or "our," we mean 
 - Profile photo (optional)
 
 **Content You Create**
-- Messages you send to matches
+- Messages you send to connections
 - Responses to Star Forge prompts (personal reflections)
 
 ### Information We Generate
@@ -44,10 +44,10 @@ Soular Love is operated by CAIVE LLC. When we say "we," "us," or "our," we mean 
 **Constellation Data**
 - AI-analyzed themes from your conversations
 - Star visualizations representing connection depth
-- Relationship maps between you and your matches
+- Relationship maps between you and your connections
 
 **Connection Records**
-- Who you've matched with
+- Who you've connected with
 - When face reveal was unlocked
 - Block and report history
 
@@ -58,7 +58,7 @@ Soular Love is operated by CAIVE LLC. When we say "we," "us," or "our," we mean 
 - Device type (for app compatibility)
 
 **Usage Information**
-- Timestamps (when you last matched, messaged, etc.)
+- Timestamps (when you last connected, messaged, etc.)
 - App interaction data necessary for functionality
 
 ---
@@ -67,9 +67,9 @@ Soular Love is operated by CAIVE LLC. When we say "we," "us," or "our," we mean 
 
 We use your information to:
 
-1. **Provide the Service** - Match you with others, enable messaging, display constellations
+1. **Provide the Service** - Connect you with others, enable messaging, display constellations
 2. **AI Analysis** - Analyze conversation depth and extract meaningful themes to create your constellation visualizations
-3. **Send Notifications** - Alert you to new matches, messages, and connection milestones
+3. **Send Notifications** - Alert you to new connections, messages, and connection milestones
 4. **Ensure Safety** - Review reports, enforce community guidelines, prevent abuse
 5. **Verify Age** - Confirm all users are 18 or older
 6. **Improve Soular** - Understand how the app is used to make it better
@@ -84,13 +84,21 @@ We use your information to:
 
 ## 4. AI and Your Conversations
 
-Soular uses artificial intelligence (Google's Gemini model via OpenRouter) to:
+Soular uses artificial intelligence (Google's Gemini 2.5 Flash model, accessed via OpenRouter through Google Vertex) to:
 
 - Determine if conversations have meaningful depth
 - Extract themes and create star visualizations
 - Generate follow-up questions for personal reflection
 
-**How it works:** When you chat with a match, our AI reads the conversation to understand if both people are sharing authentically. If so, it creates "stars" representing the themes you've explored together. This is core to how Soular works.
+**What data is sent:** Only the text of your recent conversation messages is sent to the AI service for analysis. No names, email addresses, photos, or other account details are included.
+
+**Who processes it:** Your message text is processed by Google's Gemini AI, accessed through OpenRouter (an AI routing service) via Google Vertex.
+
+**Zero Data Retention:** We enforce a Zero Data Retention (ZDR) policy at the infrastructure level through OpenRouter. This means the AI provider does not store your conversation data at any point during or after processing. Requests that cannot be processed under Zero Data Retention are automatically rejected by our system.
+
+**Your permission:** Before any conversation data is sent to the AI service, you are asked to review and consent to this data sharing during account setup. AI analysis will not occur without your explicit consent.
+
+**How it works:** When you chat with a connection, our AI reads the conversation to understand if both people are sharing authentically. If so, it creates "stars" representing the themes you've explored together. This is core to how Soular works.
 
 **What we don't do:** We don't train AI models on your conversations. We don't store conversation analysis beyond what's needed for your constellation. We don't share your messages with AI providers for any purpose other than real-time analysis.
 
@@ -98,7 +106,7 @@ Soular uses artificial intelligence (Google's Gemini model via OpenRouter) to:
 
 ## 5. How We Share Your Information
 
-### With Your Matches
+### With Your Connections
 - Your display name
 - Your profile photo (only after face reveal is unlocked)
 - Messages you send them
@@ -109,7 +117,7 @@ Soular uses artificial intelligence (Google's Gemini model via OpenRouter) to:
 | Provider | Purpose | Data Shared |
 |----------|---------|-------------|
 | Supabase | Database, authentication, file storage | Account data, messages, constellation data |
-| OpenRouter/Google Gemini | AI conversation analysis | Message content (processed, not stored by them) |
+| OpenRouter/Google Gemini | AI conversation analysis | Message text only (processed under Zero Data Retention — not stored) |
 | Expo | Push notifications | Push tokens, notification content |
 | Resend | Admin email alerts | Report details (admin only) |
 
@@ -137,7 +145,7 @@ Period. No exceptions. No "trusted partners." No "anonymized data sets." Never.
 
 This deletion is immediate and irreversible. We use cascade deletion - when your account goes, everything connected to it goes too.
 
-**Expired Connections:** Match data expires after 24 hours if no meaningful conversation occurs.
+**Expired Connections:** Connection data expires after 24 hours if no meaningful conversation occurs.
 
 **Reports:** If you report someone (or are reported), we retain a snapshot of relevant messages for safety review. This is deleted if the report is resolved or the reported account is deleted.
 
@@ -200,4 +208,4 @@ Questions about this policy or your data?
 
 ---
 
-*Last updated: December 26, 2024*
+*Last updated: February 24, 2026*

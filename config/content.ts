@@ -1,6 +1,6 @@
 export const landingContent = {
   hero: {
-    headline: "SoularVerse",
+    headline: "SoularLove",
     tagline: "Your conversations, mapped in 3D",
     appStoreUrl: process.env.NEXT_PUBLIC_APP_STORE_URL || "https://apps.apple.com/app/soular/id000000000"
   },

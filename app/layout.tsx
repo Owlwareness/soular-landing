@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "SoularVerse - Your conversations, mapped in 3D",
+  title: "SoularLove - Your conversations, mapped in 3D",
   description: "Real depth. Real connection. Build meaningful connections through conversation, not swipes. Watch your relationships come alive as 3D constellations.",
 };
 

@@ -17,7 +17,7 @@ export default function PrivacyPolicy() {
           <h1 className="text-3xl font-bold">Privacy Policy</h1>
           <p className="mt-2 text-muted">
             <strong>CAIVE LLC</strong> · <strong>Soular</strong><br />
-            Effective Date: February 10, 2025
+            Effective Date: February 24, 2026
           </p>
 
           <hr className="my-8 border-zinc-800" />
@@ -132,13 +132,29 @@ export default function PrivacyPolicy() {
           <section className="mt-8">
             <h2 className="text-xl font-semibold">4. AI and Your Conversations</h2>
             <p className="mt-4 text-muted leading-relaxed">
-              Soular uses artificial intelligence (Google&apos;s Gemini model via OpenRouter) to:
+              Soular uses artificial intelligence (Google&apos;s Gemini 2.5 Flash model, accessed via OpenRouter through Google Vertex) to:
             </p>
             <ul className="mt-2 text-muted list-disc list-inside space-y-1">
               <li>Determine if conversations have meaningful depth</li>
               <li>Extract themes and create star visualizations</li>
               <li>Generate follow-up questions for personal reflection</li>
             </ul>
+
+            <p className="mt-4 text-muted leading-relaxed">
+              <strong>What data is sent:</strong> Only the text of your recent conversation messages is sent to the AI service for analysis. No names, email addresses, photos, or other account details are included.
+            </p>
+
+            <p className="mt-4 text-muted leading-relaxed">
+              <strong>Who processes it:</strong> Your message text is processed by Google&apos;s Gemini AI, accessed through OpenRouter (an AI routing service) via Google Vertex.
+            </p>
+
+            <p className="mt-4 text-muted leading-relaxed">
+              <strong>Zero Data Retention:</strong> We enforce a Zero Data Retention (ZDR) policy at the infrastructure level through OpenRouter. This means the AI provider does not store your conversation data at any point during or after processing. Requests that cannot be processed under Zero Data Retention are automatically rejected by our system.
+            </p>
+
+            <p className="mt-4 text-muted leading-relaxed">
+              <strong>Your permission:</strong> Before any conversation data is sent to the AI service, you are asked to review and consent to this data sharing during account setup. AI analysis will not occur without your explicit consent.
+            </p>
 
             <p className="mt-4 text-muted leading-relaxed">
               <strong>How it works:</strong> When you chat with a connection, our AI reads the conversation to understand if both people are sharing authentically. If so, it creates &quot;stars&quot; representing the themes you&apos;ve explored together. This is core to how Soular works.
@@ -181,7 +197,7 @@ export default function PrivacyPolicy() {
                   <tr className="border-b border-zinc-800">
                     <td className="py-2 pr-4">OpenRouter/Google Gemini</td>
                     <td className="py-2 pr-4">AI conversation analysis</td>
-                    <td className="py-2">Message content (processed, not stored by them)</td>
+                    <td className="py-2">Message text only (processed under Zero Data Retention — not stored)</td>
                   </tr>
                   <tr className="border-b border-zinc-800">
                     <td className="py-2 pr-4">Expo</td>
@@ -320,7 +336,7 @@ export default function PrivacyPolicy() {
           <hr className="my-8 border-zinc-800" />
 
           <p className="mt-8 text-sm text-muted italic">
-            Last updated: February 10, 2026
+            Last updated: February 24, 2026
           </p>
         </article>
       </div>
