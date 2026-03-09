@@ -1,4 +1,6 @@
-import { IPhoneMockup } from './IPhoneMockup';
+'use client';
+
+import { ScrollReveal } from './ScrollReveal';
 import type { MediaConfig } from '@/config/content';
 
 interface FeatureBlockProps {
@@ -10,12 +12,16 @@ interface FeatureBlockProps {
 
 export function FeatureBlock({ title, description, media, alignment = 'left' }: FeatureBlockProps) {
   const isRight = alignment === 'right';
-  
+
   return (
     <section className="py-4 md:py-16">
       <div className={`flex flex-col gap-3 md:flex-row md:items-center md:gap-12 md:max-w-7xl md:mx-auto md:px-8 ${isRight ? 'md:flex-row-reverse' : ''}`}>
-        {/* Mockup - scale up and crop the black padding */}
-        <div className="w-full md:w-3/5 overflow-hidden py-16 md:py-0">
+        {/* Mockup */}
+        <ScrollReveal
+          className="w-full md:w-3/5 overflow-hidden py-16 md:py-0"
+          direction={isRight ? 'right' : 'left'}
+          delay={0.1}
+        >
           <div className="scale-[1.8] md:scale-[1.25] origin-center">
             {media.type === 'video' ? (
               <video
@@ -37,17 +43,21 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
               />
             )}
           </div>
-        </div>
-        
+        </ScrollReveal>
+
         {/* Content */}
-        <div className="px-4 md:px-0 md:w-2/5 text-center md:text-left">
+        <ScrollReveal
+          className="px-4 md:px-0 md:w-2/5 text-center md:text-left"
+          direction={isRight ? 'left' : 'right'}
+          delay={0.25}
+        >
           <h2 className="text-xl font-semibold text-foreground md:text-3xl">
             {title}
           </h2>
           <p className="mt-2 text-sm text-muted md:text-lg leading-relaxed">
             {description}
           </p>
-        </div>
+        </ScrollReveal>
       </div>
     </section>
   );

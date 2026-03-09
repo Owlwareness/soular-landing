@@ -12,7 +12,7 @@ export function Footer({
   supportUrl,
 }: FooterProps) {
   return (
-    <footer className="py-8 px-6 border-t border-zinc-800">
+    <footer className="py-8 px-6">
       <div className="mx-auto max-w-5xl">
         <div className="flex justify-center items-center gap-8">
           <Link

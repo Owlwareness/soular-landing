@@ -1,12 +1,12 @@
 import { HeroSection } from './components/HeroSection';
 import { FeatureBlock } from './components/FeatureBlock';
-import { AppStoreBadge } from './components/AppStoreBadge';
+import { BottomCTA } from './components/BottomCTA';
 import { Footer } from './components/Footer';
 import { StarBackground } from './components/StarBackground';
 import { landingContent } from '@/config/content';
 
 export default function Home() {
-  const { hero, features, trust, footer } = landingContent;
+  const { hero, features, trust } = landingContent;
 
   return (
     <>
@@ -28,12 +28,7 @@ export default function Home() {
           />
         ))}
 
-        {/* Final CTA - above footer */}
-        <section className="py-10 md:py-16 px-4 text-center">
-          <div className="cta-glow inline-block">
-            <AppStoreBadge url={hero.appStoreUrl} />
-          </div>
-        </section>
+        <BottomCTA appStoreUrl={hero.appStoreUrl} />
 
         <Footer
           privacyPolicyUrl={trust.privacyPolicyUrl}

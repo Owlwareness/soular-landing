@@ -1,12 +1,15 @@
 @import "tailwindcss";
 
 :root {
-  /* Soular brand colors - deep space theme */
-  --background: #000000;
-  --foreground: #f5f5f7;
-  --accent: #8b5cf6;
-  --accent-light: #a78bfa;
-  --muted: #71717a;
+  /* Soular brand colors - cosmic sunset theme */
+  --background: #0a0812;
+  --foreground: #f5f0e8;
+  --accent: #d4a574;
+  --accent-light: #e8c47c;
+  --accent-warm: #c4875a;
+  --muted: #8a7f92;
+  --deep-sky: #1a1035;
+  --mauve: #6b5b7b;
 }
 
 @theme inline {
@@ -14,7 +17,10 @@
   --color-foreground: var(--foreground);
   --color-accent: var(--accent);
   --color-accent-light: var(--accent-light);
+  --color-accent-warm: var(--accent-warm);
   --color-muted: var(--muted);
+  --color-deep-sky: var(--deep-sky);
+  --color-mauve: var(--mauve);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
@@ -32,22 +38,23 @@ body {
   overflow: hidden;
   pointer-events: none;
   z-index: 0;
+  background: linear-gradient(to bottom, #0a0812 0%, #1a1035 40%, #3d2a50 65%, #6b4a3a 85%, #c4875a10 100%);
 }
 
 .stars-layer {
   position: absolute;
   inset: 0;
   background-image: 
-    radial-gradient(1px 1px at 20px 30px, white, transparent),
-    radial-gradient(1px 1px at 40px 70px, rgba(255,255,255,0.8), transparent),
-    radial-gradient(1px 1px at 50px 160px, rgba(255,255,255,0.6), transparent),
-    radial-gradient(1px 1px at 90px 40px, white, transparent),
-    radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.7), transparent),
-    radial-gradient(2px 2px at 160px 120px, white, transparent),
-    radial-gradient(1px 1px at 200px 50px, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 220px 140px, white, transparent),
-    radial-gradient(1px 1px at 260px 90px, rgba(255,255,255,0.8), transparent),
-    radial-gradient(2px 2px at 300px 170px, white, transparent);
+    radial-gradient(1px 1px at 20px 30px, #e8c47c, transparent),
+    radial-gradient(1px 1px at 40px 70px, rgba(232,196,124,0.8), transparent),
+    radial-gradient(1px 1px at 50px 160px, rgba(212,165,116,0.6), transparent),
+    radial-gradient(1px 1px at 90px 40px, #e8c47c, transparent),
+    radial-gradient(1px 1px at 130px 80px, rgba(232,196,124,0.7), transparent),
+    radial-gradient(2px 2px at 160px 120px, #e8c47c, transparent),
+    radial-gradient(1px 1px at 200px 50px, rgba(212,165,116,0.5), transparent),
+    radial-gradient(1px 1px at 220px 140px, #e8c47c, transparent),
+    radial-gradient(1px 1px at 260px 90px, rgba(232,196,124,0.8), transparent),
+    radial-gradient(2px 2px at 300px 170px, #e8c47c, transparent);
   background-size: 320px 200px;
   background-repeat: repeat;
   animation: twinkle 8s ease-in-out infinite;
@@ -57,11 +64,11 @@ body {
   position: absolute;
   inset: 0;
   background-image: 
-    radial-gradient(1px 1px at 70px 20px, rgba(255,255,255,0.6), transparent),
-    radial-gradient(1px 1px at 110px 100px, white, transparent),
-    radial-gradient(1px 1px at 180px 60px, rgba(255,255,255,0.7), transparent),
-    radial-gradient(2px 2px at 240px 130px, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 280px 30px, white, transparent);
+    radial-gradient(1px 1px at 70px 20px, rgba(232,196,124,0.6), transparent),
+    radial-gradient(1px 1px at 110px 100px, #e8c47c, transparent),
+    radial-gradient(1px 1px at 180px 60px, rgba(212,165,116,0.7), transparent),
+    radial-gradient(2px 2px at 240px 130px, rgba(232,196,124,0.5), transparent),
+    radial-gradient(1px 1px at 280px 30px, #e8c47c, transparent);
   background-size: 300px 180px;
   background-repeat: repeat;
   animation: twinkle 6s ease-in-out infinite 2s;
@@ -71,9 +78,9 @@ body {
   position: absolute;
   inset: 0;
   background-image: 
-    radial-gradient(1px 1px at 30px 80px, rgba(255,255,255,0.4), transparent),
-    radial-gradient(1px 1px at 150px 40px, rgba(255,255,255,0.5), transparent),
-    radial-gradient(1px 1px at 250px 110px, rgba(255,255,255,0.3), transparent);
+    radial-gradient(1px 1px at 30px 80px, rgba(212,165,116,0.4), transparent),
+    radial-gradient(1px 1px at 150px 40px, rgba(232,196,124,0.5), transparent),
+    radial-gradient(1px 1px at 250px 110px, rgba(212,165,116,0.3), transparent);
   background-size: 280px 160px;
   background-repeat: repeat;
   animation: twinkle 10s ease-in-out infinite 4s;
@@ -84,16 +91,27 @@ body {
   50% { opacity: 1; }
 }
 
-/* CTA glow pulse */
-.cta-glow {
-  animation: glow-pulse 4s ease-in-out infinite;
+/* Animated glowing border */
+@property --glow-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
 
-@keyframes glow-pulse {
-  0%, 100% { 
-    filter: drop-shadow(0 0 0px rgba(139, 92, 246, 0));
+@keyframes glow-spin {
+  to {
+    --glow-angle: 360deg;
   }
-  50% { 
-    filter: drop-shadow(0 0 20px rgba(139, 92, 246, 0.6));
+}
+
+/* Reduced motion: disable all custom animations */
+@media (prefers-reduced-motion: reduce) {
+  .stars-layer,
+  .stars-layer-2,
+  .stars-layer-3 {
+    animation: none;
+  }
+  * {
+    animation-duration: 0s !important;
   }
 }
