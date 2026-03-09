@@ -56,9 +56,9 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
             className="text-xl font-semibold text-foreground md:text-3xl"
             inView
             once
-            delay={0.4}
-            speedReveal={0.8}
-            speedSegment={0.35}
+            delay={0.1}
+            speedReveal={1.2}
+            speedSegment={0.45}
             onAnimationComplete={() => setTitleDone(true)}
           >
             {title}
