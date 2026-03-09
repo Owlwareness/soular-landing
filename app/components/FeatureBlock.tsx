@@ -1,6 +1,7 @@
 'use client';
 
 import { ScrollReveal } from './ScrollReveal';
+import { BlurReveal } from './BlurReveal';
 import type { MediaConfig } from '@/config/content';
 
 interface FeatureBlockProps {
@@ -51,9 +52,16 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
           direction={isRight ? 'left' : 'right'}
           delay={0.25}
         >
-          <h2 className="text-xl font-semibold text-foreground md:text-3xl">
+          <BlurReveal
+            as="h2"
+            className="text-xl font-semibold text-foreground md:text-3xl"
+            inView
+            once
+            speedReveal={1.8}
+            speedSegment={0.6}
+          >
             {title}
-          </h2>
+          </BlurReveal>
           <p className="mt-2 text-sm text-muted md:text-lg leading-relaxed">
             {description}
           </p>
