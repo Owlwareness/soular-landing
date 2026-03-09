@@ -2,6 +2,8 @@
 
 import { ScrollReveal } from './ScrollReveal';
 import { BlurReveal } from './BlurReveal';
+import { motion } from 'framer-motion';
+import { useState } from 'react';
 import type { MediaConfig } from '@/config/content';
 
 interface FeatureBlockProps {
@@ -13,6 +15,7 @@ interface FeatureBlockProps {
 
 export function FeatureBlock({ title, description, media, alignment = 'left' }: FeatureBlockProps) {
   const isRight = alignment === 'right';
+  const [titleDone, setTitleDone] = useState(false);
 
   return (
     <section className="py-4 md:py-16">
@@ -47,25 +50,28 @@ export function FeatureBlock({ title, description, media, alignment = 'left' }: 
         </ScrollReveal>
 
         {/* Content */}
-        <ScrollReveal
-          className="px-4 md:px-0 md:w-2/5 text-center md:text-left"
-          direction={isRight ? 'left' : 'right'}
-          delay={0.25}
-        >
+        <div className="px-4 md:px-0 md:w-2/5 text-center md:text-left">
           <BlurReveal
             as="h2"
             className="text-xl font-semibold text-foreground md:text-3xl"
             inView
             once
-            speedReveal={1.8}
-            speedSegment={0.6}
+            delay={0.4}
+            speedReveal={0.8}
+            speedSegment={0.35}
+            onAnimationComplete={() => setTitleDone(true)}
           >
             {title}
           </BlurReveal>
-          <p className="mt-2 text-sm text-muted md:text-lg leading-relaxed">
+          <motion.p
+            className="mt-2 text-sm text-muted md:text-lg leading-relaxed"
+            initial={{ opacity: 0, y: 12 }}
+            animate={titleDone ? { opacity: 1, y: 0 } : {}}
+            transition={{ duration: 0.6, ease: [0.21, 0.47, 0.32, 0.98] }}
+          >
             {description}
-          </p>
-        </ScrollReveal>
+          </motion.p>
+        </div>
       </div>
     </section>
   );
