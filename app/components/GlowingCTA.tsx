@@ -29,7 +29,7 @@ export function GlowingCTA({ children, className = '' }: GlowingCTAProps) {
         }}
       />
       {/* Inner content with solid bg to mask the gradient */}
-      <div className="relative rounded-[10px] bg-[#0a0812]">
+      <div className="relative rounded-[10px] bg-black">
         {children}
       </div>
     </div>
