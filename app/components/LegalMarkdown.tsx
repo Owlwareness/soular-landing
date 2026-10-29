@@ -8,8 +8,12 @@ import type { ReactNode } from 'react';
  * paragraphs, "- " bullets (nested by two spaces), "1. " numbered lists and inline **bold**.
  */
 function inline(text: string): ReactNode[] {
-  return text.split(/(\*\*[^*]+\*\*)/g).filter(Boolean).map((part, i) =>
-    part.startsWith('**') && part.endsWith('**') ? <strong key={i} className="text-foreground">{part.slice(2, -2)}</strong> : part);
+  return text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).filter(Boolean).map((part, i) => {
+    if (part.startsWith('**') && part.endsWith('**')) return <strong key={i} className="text-foreground">{part.slice(2, -2)}</strong>;
+    const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (link) return <a key={i} href={link[2]} className="text-accent hover:text-accent-light underline">{link[1]}</a>;
+    return part;
+  });
 }
 
 type Item = { text: string; children: Item[] };
@@ -34,7 +38,7 @@ function list(lines: string[], ordered: boolean, key: string): ReactNode {
   return <div key={key}>{render(root, 0)}</div>;
 }
 
-export function LegalMarkdown({ file }: { file: 'privacy' | 'terms' }) {
+export function LegalMarkdown({ file }: { file: 'privacy' | 'terms' | 'delete' }) {
   const source = fs.readFileSync(path.join(process.cwd(), 'lib', 'legal', `${file}.md`), 'utf8');
   const blocks = source.split(/\n\s*\n/).map(block => block.replace(/\s+$/, '')).filter(Boolean);
   return <article className="mt-8 text-foreground">

@@ -28,7 +28,7 @@ This Privacy Policy describes how Caive LLC ("Caive", "we", "us" or "our") colle
 
 **1.3 Information collected automatically**
 
-- **Device push token:** if you enable notifications, used to deliver them.
+- **Device push token:** if you enable notifications, used to deliver them through Apple Push Notification service (iOS) or Google Firebase Cloud Messaging (Android).
 - **Technical information:** such as IP address, request times and error logs, recorded by our service providers when you use the Service. This information is retained for a limited period for security and reliability purposes.
 
 We do not collect precise location, contacts or advertising identifiers, and the app does not contain third-party analytics or advertising tools.
@@ -60,7 +60,7 @@ We share information with service providers that process it on our behalf and un
 
 - **Supabase (United States):** database, authentication and file storage. Processes account information, content, maps and profile photos.
 - **OpenRouter and its zero-data-retention AI hosting provider (currently Microsoft Azure):** AI processing for mapping and Star Forge. Processes conversation text as described in Section 4.
-- **Expo and Apple Push Notification service:** delivery of notifications. Processes push tokens and notification text.
+- **Expo, Apple Push Notification service and Google Firebase Cloud Messaging:** delivery of notifications. Processes push tokens and notification text.
 - **Resend:** email delivery. Processes email addresses for account emails, and report details sent to our team.
 - **Vercel:** hosting of the soular.love website. Processes standard website request logs.
 
@@ -117,7 +117,7 @@ Your profile photo is displayed to a match only after photos are unlocked for th
 
 - **Access and portability:** you may request a copy of your personal information.
 - **Correction:** you may update your profile in the app or contact us.
-- **Deletion:** you may delete your account at any time in Settings, or contact us.
+- **Deletion:** you may delete your account at any time in Settings, or request deletion without the app at https://soular.love/delete.
 - **AI processing:** see Section 4.5.
 - **Notifications:** you may disable notifications in your device settings.
 - **UK and EEA residents** may also object to or request restriction of processing, and may lodge a complaint with their local data protection authority.
