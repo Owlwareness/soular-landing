@@ -1,14 +1,9 @@
-# Video Assets
+# Video assets
 
-Replace these placeholder files with actual app recordings:
+The three feature clips on the home page come from SoularLove 2.0's real app. They were recorded on an iPhone on 2026-10-29; Holly and Jess are fictional. They were made in `~/dev/videos/work/2026-10-29-soular-hero/` with `node build.cjs`; the cuts and camera moves are in `edl.json`.
 
-- `relationship-mapping.mp4` - Shows: deep message sent → AI detects depth → stars appear
-- `personal-constellation.mp4` - Shows: AI surfaces insight → user expands → personal star created  
-- `face-reveal.mp4` - Shows: constellation threshold reached → face reveal unlocks
+- `relationship-mapping.mp4`: a deep reply, then "2 new stars", then the shared map bursts into two stars.
+- `personal-constellation.mp4`: a Star Forge reflection becomes a personal star. It loops seamlessly.
+- `face-reveal.mp4`: the fourth star unlocks the face reveal.
 
-## Recording Tips
-
-- Record at 1080x2340 (iPhone 14 Pro aspect ratio)
-- Keep videos under 10 seconds for fast loading
-- Use screen recording from the actual app
-- Compress with HandBrake or similar for web delivery
+They're 1440×1080, 60 fps H.264, on black (the page's background).
