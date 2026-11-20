@@ -1,7 +1,7 @@
 # Privacy Policy
 
 Caive LLC · Soular
-Version 2.0 · Effective October 29, 2026
+Version 2.1 · Effective November 20, 2026
 
 This Privacy Policy describes how Caive LLC ("Caive", "we", "us" or "our") collects, uses, shares and protects personal information when you use the Soular mobile application (listed on the App Store as SoularLove) and related services (together, the "Service"). By using the Service, you acknowledge that you have read this Privacy Policy.
 
@@ -23,7 +23,7 @@ This Privacy Policy describes how Caive LLC ("Caive", "we", "us" or "our") colle
 - **Matches:** the people you have been matched with, and when.
 - **Shared maps:** the stars and links generated from your conversations with each match, and whether photos have been unlocked for a match.
 - **Personal maps:** prompts derived from your conversations and the personal stars you create from them.
-- **Safety records:** blocks and reports, including any messages attached to a report (see Section 6).
+- **Safety records:** blocks and reports, including the messages kept with a block or a report (see Section 6).
 - **Consent records:** the version and date of the Terms of Service, this Privacy Policy and the AI processing disclosure you accepted.
 
 **1.3 Information collected automatically**
@@ -108,9 +108,9 @@ Your profile photo is displayed to a match only after photos are unlocked for th
 ## 6. Data Retention
 
 - **Active accounts:** we retain personal information while your account is active and as needed to provide the Service.
-- **Blocks:** blocking a user ends the match and deletes the messages between you.
-- **Reports:** reporting a user also blocks them. A copy of the most recent 50 messages in the conversation is retained for review until either account is deleted.
-- **Account deletion:** deleting your account immediately deletes your profile, profile photo, messages, matches, shared and personal maps, Glimpses, blocks and reports. If a file cannot be deleted immediately, deletion is retried until it succeeds.
+- **Blocks:** blocking a user ends the match and removes the conversation from both of your apps. We keep a private copy of the most recent 50 messages for up to 45 days, so we can review it if either of you contacts us; then it is deleted. If either account is deleted in that time, the copy is kept for up to 45 days after the deletion.
+- **Reports:** reporting a user also blocks them. A copy of the most recent 50 messages in the conversation is kept for review while both accounts exist, and for up to 45 days after either account is deleted.
+- **Account deletion:** deleting your account immediately deletes your profile, profile photo, messages, matches, shared and personal maps and Glimpses. Reports and blocks involving your account, and the message copies kept with them, are kept for up to 45 days after the deletion so we can act on safety concerns, then deleted. If a file cannot be deleted immediately, deletion is retried until it succeeds.
 - **Logs and backups:** service provider logs and backups expire automatically according to their retention schedules.
 
 ## 7. Your Rights and Choices

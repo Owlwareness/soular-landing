@@ -1,7 +1,7 @@
 # Terms of Service
 
 Caive LLC · Soular
-Version 2.0 · Effective October 29, 2026
+Version 2.1 · Effective November 20, 2026
 
 These Terms of Service (the "Terms") govern your use of the Soular mobile application (listed on the App Store as SoularLove) and related services (together, the "Service"), provided by Caive LLC ("Caive", "we", "us" or "our"). By creating an account or using the Service, you agree to these Terms and acknowledge our Privacy Policy. If you do not agree, do not use the Service.
 
@@ -47,7 +47,7 @@ We may remove content and suspend or terminate accounts that violate these stand
 
 ## 5. Blocking and Reporting
 
-- **Blocking:** you may block any user at any time. Blocking ends the match, deletes the messages between you and prevents future matches. The other user is not notified.
+- **Blocking:** you may block any user at any time. Blocking ends the match, removes the messages between you from the app and prevents future matches. We keep a private copy of the most recent 50 messages for up to 45 days for safety review, as our Privacy Policy describes. The other user is not notified.
 - **Reporting:**
   - Reporting a user also blocks them, and retains the most recent 50 messages of the conversation for review.
   - We review reports and aim to take action within 24 hours. Actions may include removing content, issuing warnings, or suspending or terminating accounts.
@@ -58,7 +58,7 @@ We may remove content and suspend or terminate accounts that violate these stand
 - **Ownership:** you retain ownership of the content you submit, including messages, responses and photos ("Your Content").
 - **License to us:**
   - You grant Caive a worldwide, non-exclusive, royalty-free license to host, store, process, display and transmit Your Content solely to operate and provide the Service. This includes displaying it to your matches and processing it with AI as described in our Privacy Policy.
-  - This license ends when Your Content or your account is deleted, except for copies we may retain as described in our Privacy Policy, such as content attached to a report under review.
+  - This license ends when Your Content or your account is deleted, except for copies we may keep as described in our Privacy Policy, such as messages kept with a block or a report.
 - **Responsibility:** you are responsible for Your Content and represent that you have the rights to submit it.
 
 ## 7. AI-Generated Content

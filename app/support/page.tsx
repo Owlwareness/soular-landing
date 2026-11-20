@@ -78,7 +78,7 @@ export default function Support() {
             </div>
             <div className="border-t border-zinc-800 pt-4">
               <h3 className="text-sm font-medium text-foreground">Is my data safe?</h3>
-              <p className="text-sm text-muted mt-1">All data is encrypted. We never sell it. When you delete your account, everything is gone immediately. Read our{' '}
+              <p className="text-sm text-muted mt-1">All data is encrypted. We never sell it. When you delete your account, your profile, photo, messages and maps are deleted immediately. Reports and blocks involving your account are kept for up to 45 days for safety review, then deleted. Read our{' '}
                 <Link href="/privacy" className="text-accent hover:text-accent-light underline">Privacy Policy</Link> for details.
               </p>
             </div>

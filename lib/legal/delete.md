@@ -16,7 +16,8 @@ If you no longer have the app, email hello@soular.love from the email address on
 - your messages and matches
 - your shared and personal maps
 - your Glimpses
-- your blocks and reports
+
+Reports and blocks involving your account, and the messages kept with them, are kept for up to 45 days after the deletion for safety review, then deleted.
 
 **What may remain**
 
