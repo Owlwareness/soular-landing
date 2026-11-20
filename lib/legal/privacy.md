@@ -87,7 +87,7 @@ For a conversation, the text sent since the last mapping and the titles of exist
 
 **4.3 Information not sent**
 
-Your email address, profile photo, date of birth and account identifiers are never included in AI requests. Before a request is sent, both participants' profile names are replaced with placeholders, and they are restored on our servers afterwards. A profile name that is also a common word is replaced only when it is capitalized. Any other information you type, such as another person's name, is sent as written.
+Your email address, profile photo, date of birth and account identifiers are never included in AI requests.
 
 **4.4 AI provider**
 
