@@ -103,7 +103,7 @@ AI-generated content reflects an automated interpretation of a conversation. It 
 
 ## 5. Profile Photos
 
-Your profile photo is displayed to a match only after photos are unlocked for that match. Photo files are currently stored at addresses that are not publicly listed but could be opened by anyone who obtains the exact address. We are moving photo storage to private access controls and will update this Privacy Policy when that work is complete.
+Profile photo files are stored in a private bucket. Fresh access to your current photo is available to you and to an active, unblocked connection after the second shared mapping, at four stars. The app requests signed links lasting five minutes, but that is not a server-enforced maximum: an authorized client can request longer links. Earlier uploaded photos may remain stored. Previously issued links, cached images and saved copies can remain usable after replacement, blocking or a change in access. If account cleanup fails, a previously eligible connection may still obtain access until the profile is removed; deletion may need another attempt.
 
 ## 6. Data Retention
 

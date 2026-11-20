@@ -24,7 +24,7 @@ You are responsible for keeping your login credentials confidential, for keeping
 - **AI mapping:**
   - The Service uses artificial intelligence to identify meaningful moments in your conversations and represent them as stars on a shared map.
   - AI processing is an essential part of the Service, and you consent to it during sign-up, as described in our Privacy Policy.
-- **Photo unlock:** profile photos are unlocked for a match automatically after the second mapping (four stars). Neither user can unlock photos early.
+- **Photo unlock:** Use a clear photo of yourself and only upload a photo you have the right to share. The in-app reveal occurs after four shared stars. The Privacy Policy explains the current storage stage and limits of links, cached images and saved copies. Do not share another person's photo without permission or try to bypass access controls. Replacing a photo does not guarantee that every earlier file or copy is erased.
 - **Star Forge:** you may write responses (of at least 80 characters) to prompts drawn from your conversations to create personal stars.
 - **Glimpses:** you may share a short note (up to 140 characters) about one of your stars with your matches for 24 hours, and may stop sharing it at any time.
 
