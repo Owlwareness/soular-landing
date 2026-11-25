@@ -1,7 +1,7 @@
 # Privacy Policy
 
 Caive LLC · Soular
-Version 2.1 · Effective November 20, 2026
+Version 2.2 · Effective November 25, 2026
 
 This Privacy Policy describes how Caive LLC ("Caive", "we", "us" or "our") collects, uses, shares and protects personal information when you use the Soular mobile application (listed on the App Store as SoularLove) and related services (together, the "Service"). By using the Service, you acknowledge that you have read this Privacy Policy.
 
@@ -9,7 +9,7 @@ This Privacy Policy describes how Caive LLC ("Caive", "we", "us" or "our") colle
 
 **1.1 Information you provide**
 
-- **Account information:** your email address, password, first name and date of birth. Passwords are stored by our authentication provider in hashed form and are not visible to us.
+- **Account information:** your email address, password, first name and date of birth. Passwords are stored by our authentication provider in hashed form and are not visible to us. Signing in with Apple or Google shares your name and email with us (and, from Google, a profile photo link). We use them only for your account and never show them to others.
 - **Profile photo:** the photo you upload to your profile.
 - **Content:**
   - messages you send to your matches
@@ -58,6 +58,7 @@ Your matches can see your first name, the messages you send them, your shared ma
 
 We share information with service providers that process it on our behalf and under our instructions:
 
+- **Apple and Google:** sign-in.
 - **Supabase (United States):** database, authentication and file storage. Processes account information, content, maps and profile photos.
 - **OpenRouter and its zero-data-retention AI hosting provider (currently Microsoft Azure):** AI processing for mapping and Star Forge. Processes conversation text as described in Section 4.
 - **Expo, Apple Push Notification service and Google Firebase Cloud Messaging:** delivery of notifications. Processes push tokens and notification text.
